@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="baiTap.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:baiTap"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+    <StackPanel>
+        <TextBox x:ConnectionId='4' x:Name="UserName" Header="User Name"/>
+        <TextBox x:ConnectionId='5' x:Name="Email" Header="Email"/>
+        <TextBox x:ConnectionId='6' x:Name="Phone" Header="Phone"/>
+    </StackPanel>
+    <StackPanel Orientation="Horizontal">
+        <Button x:ConnectionId='2' x:Name="saveFile" Content="Save File"                   />
+        <Button x:ConnectionId='3' x:Name="loadFile" Content="Load File"                   />
+    </StackPanel>
+    </Grid>
+</Page>
+
